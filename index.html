@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haider | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Haider<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Portfolio</a></li>
+                <li><a href="#contact" class="nav-cta">Let's Talk</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-btn">🌓</button>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h3>Hi, I'm <span class="name">Haider</span></h3>
+            <h1>Beginner Web Developer</h1>
+            <p>I am a passionate Computer Science student with a strong interest in coding, problem-solving, and software development. I enjoy working with different programming languages and technologies to build creative and practical solutions. I love learning new concepts, improving my logical thinking, and writing clean and efficient code. My goal is to become a professional developer and work on real-world projects that make a positive impact.</p>
+            <div class="hero-btns">
+                <a href="#contact" class="btn primary">Hire Me</a>
+                <a href="#projects" class="btn secondary">See Projects</a>
+            </div>
+        </div>
+        <div class="hero-img">
+            <img src="my pic.jpeg" alt="Haider Profile">
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+    <h2 class="section-title">My Expertise</h2>
+    <div class="skills-container">
+        <div class="skill-box">
+            <div class="skill-icon">💻</div>
+            <h4>Programming</h4>
+            <p>C++, Python, JavaScript</p>
+        </div>
+        <div class="skill-box">
+            <div class="skill-icon">🌐</div>
+            <h4>Web Development</h4>
+            <p>HTML, CSS, Tailwind CSS</p>
+        </div>
+        <div class="skill-box">
+            <div class="skill-icon">🗄️</div>
+            <h4>Database</h4>
+            <p>MySQL, MongoDB</p>
+        </div>
+        <div class="skill-box">
+            <div class="skill-icon">🛠️</div>
+            <h4>Tools & Platforms</h4>
+            <p>VS Code, Git & GitHub, Node.js</p>
+        </div>
+        <div class="skill-box">
+            <div class="skill-icon">🧠</div>
+            <h4>Other Skills</h4>
+            <p>Problem-solving, Logical Thinking, Project Development</p>
+        </div>
+    </div>
+</section>
+
+    <section id="projects" class="projects">
+        <h2>Selected Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <h3>Student Management</h3>
+                <p>C++ console application for UOG academic data management.</p>
+                <a href="#">View Code</a>
+            </div>
+            <div class="project-card">
+                <h3>Responsive Design</h3>
+                <p>A professional landing page with mobile-first approach.</p>
+                <a href="#">Live Demo</a>
+            </div>
+            <div class="project-card">
+                <h3>Interactive App</h3>
+                <p>JavaScript based application with dynamic features.</p>
+                <a href="#">Explore</a>
+            </div>
+        </div>
+    </section>
+
+   <section id="contact" class="contact-section">
+    <div class="container">
+        <h2 class="section-title">Get In <span>Touch</span></h2>
+        <p class="contact-subtitle">Koi sawal hai ya kaam shuru karna chahte hain? Mujhe message karen!</p>
+        
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <div class="info-item">
+                    <div class="icon">📍</div>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Gujrat, Pakistan (UOG)</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="icon">📧</div>
+                    <div>
+                        <h4>Email</h4>
+                        <p>mhaiderkhursheed786@example.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form">
+                <div class="input-group">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                </div>
+                <input type="text" placeholder="Subject">
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+    <script src="script.js"></script>
+</body>
+</html>
